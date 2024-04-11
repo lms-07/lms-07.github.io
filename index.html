@@ -9,6 +9,89 @@
     <meta name="author" content="Mingsong Li">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+      <style type="text/css">
+    /* Color scheme stolen from Sergey Karayev */
+
+    a {
+      color: #1772d0;
+      text-decoration: none;
+    }
+
+    a:focus,
+    a:hover {
+      color: #f09228;
+      text-decoration: none;
+    }
+
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px
+    }
+
+    strong {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+
+    heading {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 22px;
+    }
+
+    papertitle {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 14px;
+      font-weight: 700
+    }
+
+    name {
+      font-family: 'Lato', Verdana, Helvetica, sans-serif;
+      font-size: 32px;
+    }
+
+    .one {
+      width: 160px;
+      height: 160px;
+      position: relative;
+    }
+
+    .two {
+      width: 160px;
+      height: 160px;
+      position: absolute;
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+
+    .fade {
+      transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      -webkit-transition: opacity .2s ease-in-out;
+    }
+
+    .rounded-rectangle {
+    width: 140px;
+    height: auto;
+    overflow: hidden;
+    }
+
+    .rounded-rectangle img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+    }
+
+    span.highlight {
+      background-color: #ffffd0;
+    }
+  </style>
+
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="icon" type="image/jpg" href="img/icon.jpg">
 </head>
@@ -50,12 +133,16 @@
 
                         </p>
                     </td>
-                    <td style="padding:2.5%;width:60%;max-width:60%">
-                        <a href="img/lms/lms.jpg"><img style="width:50%;max-width:50%;border-radius:50%"
+
+                    <td style="padding:2%;width:50%;height:50%">
+                        <div class='rounded-rectangle'>
+                        <a href="img/lms/lms.jpg"><img style="width:100%;max-width:100%;"
                                                        alt="profile photo"
                                                        src="img/lms/lms.jpg"
                                                        class="hoverZoomLink"></a>
+                        </div>
                     </td>
+
                 </tr>
                 </tbody>
             </table>
@@ -298,10 +385,10 @@
                     <td style="padding:0px 5px 10px 20px;width:85%;vertical-align:middle">
                         <strong>Reviewer</strong>
                         <ul>
-                            <li>IEEE Transactions on Geoscience and Remote Sensing (TGRS),&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            <li><a href="https://ieeexplore.ieee.org/xpl/aboutJournal.jsp?punumber=36">IEEE Transactions on Geoscience and Remote Sensing (TGRS)</a>,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                                 2023.09-present
                             </li>
-                            <li>IEEE Transactions on Circuits and Systems for Video Technology (TCSVT),&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                            <li><a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=76">IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)</a>,&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
                                 2023.10-present
                             </li>
                         </ul>
@@ -378,13 +465,13 @@
                 <tr onmouseout="dreamfusion_stop()" onmouseover="dreamfusion_start()">
                     <td style="padding:0px 5px 10px 10px;width:85%;vertical-align:middle">
                         <ul>
-                            <li>President Scholarship (for master students) in Shandong University, 2022-2023</li>
-                            <li>National Scholarship (for master students), from the Ministry of Education of China, 2022-2023</li>
-                            <li>First-class Scholarship for Outstanding Students in Shandong University, 2022-2023</li>
+                            <li>President Scholarship (for postgraduates) in Shandong University, 2023</li>
+                            <li>National Scholarship (for master students), from the Ministry of Education of China, 2023</li>
+                            <li>First-class Scholarship for Outstanding Students in Shandong University, 2023</li>
                             <li>Outstanding Graduates of Shandong University, 2021</li>
                             <li>Outstanding Undergraduate Thesis of Shandong University, 2021</li>
-                            <li>First-class Scholarship for Outstanding Students in Shandong University, 2019-2020</li>
-                            <li>Second-class Scholarship for Outstanding Students in Shandong University, 2018-2019</li>
+                            <li>First-class Scholarship for Outstanding Students in Shandong University, 2020</li>
+                            <li>Second-class Scholarship for Outstanding Students in Shandong University, 2019</li>
                         </ul>
                     </td>
                 </tr>
@@ -399,7 +486,7 @@
                         <p style="text-align:center;font-size:small;">
                             Design and source code mainly from <a style="font-size:small;" href="https://jonbarron.info"
                                                                   , target="_blank">Jon Barron's website</a> <br>
-                            All content &#169; Mingsong Li,&nbsp last updated: 2024.2
+                            All content &#169; Mingsong Li,&nbsp last updated: 2024.4
                         </p>
                     </td>
                 </tr>
