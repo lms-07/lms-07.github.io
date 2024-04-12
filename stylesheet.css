@@ -94,11 +94,11 @@ heading {
   font-size: 22px;
 }
 
-/*subheading {*/
-/*  font-family: 'Lato', Verdana, Helvetica, sans-serif;*/
-/*  font-size: 25px;*/
-/*  font-weight: 1000*/
-/*}*/
+subheading {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 25px;
+  font-weight: 1000
+}
 
 papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
@@ -128,7 +128,7 @@ name {
 
 .news {
   width: 600px;
-  height: 110px;
+  height: auto;
 }
 
 
@@ -141,3 +141,29 @@ name {
 span.highlight {
   background-color: #ffffd0;
 }
+
+
+.rounded-rectangle {
+width: 140px;
+height: auto;
+overflow: hidden;
+}
+
+.rounded-rectangle img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.paper_img {
+width: 200px;
+height: auto;
+overflow: hidden;
+}
+
+.paper_img img {
+    width: 100%;
+    height: auto;
+}
+
+

@@ -9,100 +9,6 @@
     <meta name="author" content="Mingsong Li">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <style type="text/css">
-    /* Color scheme stolen from Sergey Karayev */
-
-    a {
-      color: #1772d0;
-      text-decoration: none;
-    }
-
-    a:focus,
-    a:hover {
-      color: #f09228;
-      text-decoration: none;
-    }
-
-    body,
-    td,
-    th,
-    tr,
-    p,
-    a {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 14px
-    }
-
-    strong {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 14px;
-    }
-
-    heading {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 22px;
-    }
-
-    papertitle {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 14px;
-      font-weight: 700
-    }
-
-    name {
-      font-family: 'Lato', Verdana, Helvetica, sans-serif;
-      font-size: 32px;
-    }
-
-    .one {
-      width: 160px;
-      height: 160px;
-      position: relative;
-    }
-
-    .two {
-      width: 160px;
-      height: 160px;
-      position: absolute;
-      transition: opacity .2s ease-in-out;
-      -moz-transition: opacity .2s ease-in-out;
-      -webkit-transition: opacity .2s ease-in-out;
-    }
-
-    .fade {
-      transition: opacity .2s ease-in-out;
-      -moz-transition: opacity .2s ease-in-out;
-      -webkit-transition: opacity .2s ease-in-out;
-    }
-
-    .rounded-rectangle {
-    width: 140px;
-    height: auto;
-    overflow: hidden;
-    }
-
-    .rounded-rectangle img {
-        width: 100%;
-        height: auto;
-        border-radius: 20px;
-    }
-
-    .paper_img {
-    width: 250px;
-    height: auto;
-    overflow: hidden;
-    }
-
-    .paper_img img {
-        width: 100%;
-        height: auto;
-    }
-
-    span.highlight {
-      background-color: #ffffd0;
-    }
-  </style>
-
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <link rel="icon" type="image/jpg" href="img/icon.jpg">
 
@@ -156,11 +62,23 @@
                 </tbody>
             </table>
 
-<!--            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">-->
-<!--                <tbody>-->
-<!--                <tr>-->
-<!--                    <td style="padding:20px 0px 0px 20px;width:100%;vertical-align:middle">-->
-<!--                        <heading>News</heading>-->
+            <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                <tbody>
+                <tr>
+                    <td style="padding:20px 0px 0px 20px;width:100%;vertical-align:middle">
+                        <heading>News</heading>
+                        <div class="news">
+                        <p><strong>[2023.08]</strong>&nbsp&nbsp We release our codebase <a target="_blank" href="https://github.com/lms-07/LGTEUN">LGTEUN</a>.
+                            Feel free to test our code.<br>
+                            <strong>[2023.04]</strong>&nbsp&nbsp Our paper <a target="_blank" href="https://github.com/lms-07/LGTEUN">LGTEUN</a>
+                            for Pan-sharpening was accepted by IJCAI 2023. See you in Macau!<br>
+                            <strong>[2023.04]</strong>&nbsp&nbsp Our paper <a target="_blank" href="https://github.com/lms-07/AMS-M2ESL">AMS-M2ESL</a>
+                            for Hyperspectral Image Classification was accepted by TGRS.<br>
+                            <strong>[2022.10]</strong>&nbsp&nbsp Our paper <a target="_blank" href="https://github.com/lms-07/CVSSN">CVSSN</a>
+                            (my first first-author paper) for Hyperspectral Image Classification was accepted by TCSVT!
+                        </p>
+                        </div>
+
 <!--                        <div class="news">-->
 <!--                            <ul style="text-align:justify;height:100px;">-->
 <!--                                <li class="font">2023.08: We release our codebase <a target="_blank"-->
@@ -178,15 +96,15 @@
 <!--                                    TCSVT!</font></li>-->
 <!--                            </ul>-->
 <!--                        </div>-->
-<!--                    </td>-->
-<!--                </tr>-->
-<!--                </tbody>-->
-<!--            </table>-->
+                    </td>
+                </tr>
+                </tbody>
+            </table>
 
             <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                 <tbody>
                 <tr>
-                    <td style="padding:20px 20px 0px 20px;width:80%;vertical-align:middle;text-align:justify">
+                    <td style="padding:20px 10px 0px 20px;width:80%;vertical-align:middle;text-align:justify">
                         <heading>Research</heading>
                         <p>
                             I am broadly interested in Computer Vision and Machine Learning. My current interest lies
@@ -218,7 +136,7 @@
                         </div>
 
                     </td>
-                    <td style="padding:0px 0px 0px 15px;width:75%;vertical-align:middle;text-align:justify">
+                    <td style="padding:0px 10px 0px 15px;width:75%;vertical-align:middle;text-align:justify">
                         <papertitle>Local-Global Transformer Enhanced Unfolding Network for Pan-sharpening</papertitle>
                         <br>
                         <strong><em>Mingsong Li</em></strong>,
@@ -249,7 +167,7 @@
                             <img src='img/pub/AMS-M2ESL.png'>
                         </div>
                     </td>
-                    <td style="padding:0px 0px 0px 15px;width:75%;vertical-align:middle;text-align:justify">
+                    <td style="padding:0px 10px 0px 15px;width:75%;vertical-align:middle;text-align:justify">
                         <papertitle>Adaptive Mask Sampling and Manifold to Euclidean Subspace Learning with Distance
                             Covariance Representation for Hyperspectral Image Classification
                         </papertitle>
@@ -277,7 +195,7 @@
                             <img src='img/pub/CVSSN.png'>
                         </div>
                     </td>
-                    <td style="padding:0px 0px 0px 15px;width:75%;vertical-align:middle;text-align:justify">
+                    <td style="padding:0px 10px 0px 15px;width:75%;vertical-align:middle;text-align:justify">
                         <papertitle>Exploring the Relationship Between Center and Neighborhoods: Central Vector Oriented
                             Self-Similarity Network for Hyperspectral Image Classification
                         </papertitle>
@@ -310,7 +228,7 @@
                             <img src='img/pub/taoxiao_tgrs_2023.png'>
                         </div>
                     </td>
-                    <td style="padding:0px 0px 0px 15px;width:75%;vertical-align:middle;text-align:justify">
+                    <td style="padding:0px 10px 0px 15px;width:75%;vertical-align:middle;text-align:justify">
                         <papertitle>Enhancing Multiscale Representations with Transformer for Remote Sensing Image
                             Semantic Segmentation
                         </papertitle>
@@ -337,7 +255,7 @@
                             <img src='img/pub/guangluoxue_jstars_2022.gif'>
                         </div>
                     </td>
-                    <td style="padding:0px 0px 0px 15px;width:75%;vertical-align:middle;text-align:justify">
+                    <td style="padding:0px 10px 0px 15px;width:75%;vertical-align:middle;text-align:justify">
                         <papertitle>A^3Seg: An Annealing Augmented and Aligned Semantic Segmentation Network for High
                             Spatial Resolution Remote Sensing Images
                         </papertitle>
@@ -426,7 +344,7 @@
                 </tr>
 
                 <tr>
-                    <td style="padding:0px 0px 0px 20px;width:100%;vertical-align:middle">
+                    <td style="padding:0px 10px 0px 20px;width:100%;vertical-align:middle">
                         2023.08, <strong><em>Local-Global Transformer Enhanced Unfolding Network for Pan-sharpening</em></strong>
                         in IJCAI 2023, at Macau, China&nbsp&nbsp&nbsp&nbsp
                         [<a href="https://github.com/lms-07/LGTEUN/blob/main/src/LGTEUN_slides.pdf">slides</a>]
