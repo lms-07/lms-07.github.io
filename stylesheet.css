@@ -85,10 +85,6 @@ p,
 
 
 
-
-
-
-
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px
@@ -160,7 +156,7 @@ span.highlight {
 
 
 .rounded-rectangle {
-width: 160px;
+width: 190px;
 height: auto;
 overflow: hidden;
 }
