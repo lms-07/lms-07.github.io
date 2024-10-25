@@ -64,13 +64,13 @@
 }
 
 a {
-  color: #04C072; /* */
+  color: #1B5CA1; /*url color */
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: #f09228; /* */
+  color: #E4A35E; /* */
   text-decoration: none;
 }
 
@@ -156,7 +156,7 @@ span.highlight {
 
 
 .rounded-rectangle {
-width: 190px;
+width: 195px;
 height: auto;
 overflow: hidden;
 }
