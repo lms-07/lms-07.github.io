@@ -83,8 +83,6 @@ th,
 tr,
 p,
 
-
-
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px
@@ -156,7 +154,7 @@ span.highlight {
 
 
 .rounded-rectangle {
-width: 195px;
+width: 180px;
 height: auto;
 overflow: hidden;
 }
@@ -168,7 +166,7 @@ overflow: hidden;
 }
 
 .paper_img {
-width: 240px;
+width: 225px;
 height: auto;
 overflow: hidden;
 }
